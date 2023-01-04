@@ -1,0 +1,55 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    font-family: 'BebasNeue',Arial,sans-serif;
+}
+.nav_text{
+    font-size: 2vw;
+}
+.nav_lead{
+    font-size: 3vw;
+}
+
+.navout{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.head{
+    background-color: #fff;
+}
+.head-text{
+    color: #000;
+    font-size: 500%;
+    font-family: 'BebasNeue',Arial,sans-serif;
+}
+.head-img{
+    width: 100%;
+}
+.longsleeve-img{
+    max-width: 30%;
+    margin-left: 5%;
+    background-image: url("../img/O2.jpg");
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: center;
+}
+.longsleeve{
+    width: 100%; /* для удобства */
+    border-radius: 4px;
+    padding: 20px;
+    padding-top: 9px;
+}
+.name{
+    margin-top: 2vw;
+    margin-left: 8%;
+    font-size: 2vw;
+}
+.price{
+    margin-left: 8%;
+    font-size: 2vw;
+}
