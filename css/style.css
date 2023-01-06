@@ -3,7 +3,7 @@ a{
     color: black;
 }
 body{
-    font-family: 'BebasNeue',Arial,sans-serif;
+    font-family: Comic Sans MS, Comic Sans, cursive;
 }
 .nav_text{
     font-size: 2.5vw;
@@ -43,16 +43,12 @@ body{
 .head-img{
     width: 100%;
 }
-.longsleeve-img{
-    max-width: 50%;
+.img{
+    width: 70%;
     margin-left: 5%;
-    background-image: url("../img/O2.jpg");
-    background-repeat: no-repeat;
-    background-size: 150%;
-    background-position: center;
 }
 .longsleeve{
-    width: 100%; /* для удобства */
+    width: 50%;
     padding-top: 9px;
 }
 .name{
@@ -68,4 +64,27 @@ body{
     width: 100%;
     position: fixed;
     background-color: #fff;
+}
+.section{
+    display: flex;
+}
+.l_a{
+    background-image: url("../img/r.jpg");
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: 90% 60%;
+}
+.s_a{
+    background-image: url("../img/O2.jpg");
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-position: 30% -10%; 
+}
+@media screen and (max-width: 900px) {
+    .section{
+        display: block;
+    }
+    .longsleeve{
+        width: 100%;
+    }
 }
