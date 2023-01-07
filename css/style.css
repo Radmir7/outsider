@@ -87,4 +87,33 @@ body{
     .longsleeve{
         width: 100%;
     }
+    .img{
+        width: 100%;
+        margin-left: 0;
+    }
+    .l_a{
+        background-image: url("../img/r.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: 50% 50%;
+    }
+    .s_a{
+        background-image: url("../img/O2.jpg");
+        background-repeat: no-repeat;
+        background-size: 90%;
+        background-position: 90% 0%; 
+    }
+}
+.scarf{
+    margin-top: 10%;
+}
+.footer{
+    display: flex;
+    margin-top: 10vh;
+    margin-left: 8vw;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.footer_text{
+    width: 1%;
 }
